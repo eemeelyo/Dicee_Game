@@ -59,3 +59,33 @@ footer {
   font-family: 'Indie Flower', cursive;
   font-size: 5rem;
 }
+
+@media (min-width: 480px) {
+  .container {
+    margin: 5rem auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: auto;
+  }
+  button#rollBtn {
+    font-size: 4rem;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  p {
+    margin: auto; 
+  }
+  img{
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024) {
+  button#rollBtn {
+    font-size: 1rem;
+  }
+}
