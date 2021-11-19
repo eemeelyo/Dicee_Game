@@ -1,12 +1,13 @@
 .container {
-  width: 70%;
-  margin: auto;
+  width: 80%;
+  margin: 10rem auto;
   text-align: center;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
+  margin: 50px;
 
 }
 
@@ -18,12 +19,12 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 5rem;
+  font-size: 10rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 5rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
@@ -33,13 +34,13 @@ img {
 }
 
 button#rollBtn {
-  font-size: 2rem;
-  border: 5px solid gold;
+  font-size: 7rem;
+  border: 50px solid gold;
   background-color: orange;
-  border-radius: 30px;
+  border-radius: 300px;
   color: white;
 
-  padding: 15px 25px;
+  padding: 35px 45px;
   text-align: center;
   cursor: pointer;
   outline: none;
@@ -56,5 +57,5 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
+  font-size: 5rem;
 }
