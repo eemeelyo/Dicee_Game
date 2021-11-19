@@ -60,12 +60,13 @@ footer {
   font-size: 5rem;
 }
 
+
 @media (min-width: 480px) {
   .container {
     margin: 5rem auto;
   }
 }
-
+/* 
 @media (min-width: 768px) {
   .container {
     margin: auto;
@@ -82,10 +83,35 @@ footer {
   img{
     width: 50%;
   }
-}
-
+} */
+/* 
 @media (min-width: 1024) {
   button#rollBtn {
     font-size: 1rem;
+  }
+} */
+@media (orientation: landscape) and (min-width: 1024px) {
+  body {
+    flex-direction: row;
+  }
+  .container {
+    margin: 0% auto;
+  }
+  button#rollBtn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+  p{
+    margin: 0%;
+    font-size: 4rem;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  img {
+    width: 5rem;
+  }
+  footer {
+    font-size: 2rem;
   }
 }
